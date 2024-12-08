@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image"
 import '@fontsource/poppins'; 
 import { TiLocation } from 'react-icons/ti';
 import { FaPhone } from "react-icons/fa6";
@@ -12,7 +13,7 @@ export default function Contact() {
     <div className="h-screen flex ">
       <div
         className="h-[30%]  w-full bg-cover bg-center"
-        style={{ backgroundImage: "url('/Hero.png')" }}
+        style={{ backgroundImage: "url('/22.jpg')" }}
       >
         </div >
         </div>
@@ -136,7 +137,7 @@ export default function Contact() {
           <div className="h-screen flex mt-36 ">
       <div
         className="h-[20%]  w-full bg-cover bg-center"
-        style={{ backgroundImage: "url('/Hero.png')" }}
+        style={{ backgroundImage: "url('/11.jpg')" }}
       >
         </div >
         </div>
