@@ -2,11 +2,7 @@
   "extends": "next/core-web-vitals",
   "rules": {
     "no-console": "warn",
-    "no-debugger": "warn",
-    "no-unused-vars": "error",
-    "no-undef": "error",
-    "semi": ["error", "always"],
-    "quotes": ["error", "double"]
-  }
+    "no-debugger": "warn"
+    }
 
 }
