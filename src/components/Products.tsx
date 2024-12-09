@@ -82,7 +82,7 @@ export default function Products(){
                   src={card.image}
                   style={{ width: "18rem", height: "18rem" }}
                   className="card-img-top"
-                //   alt={card.title}
+                  alt={card.name}
                 />
                 <div className="card-body">
                   <h5 className="card-title" style={{ fontWeight: "bold" }}>

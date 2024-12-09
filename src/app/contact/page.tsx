@@ -19,8 +19,6 @@ export default function () {
             <h3>contact</h3>
           </div>
         </div>
-        {/* <div> */}
-        {/* </div> */}
       </div>
       <div className="text-center w-15 mt-3">
         <h2 className="font-extrabold text-[2rem]">Get In Touch With Us</h2>
