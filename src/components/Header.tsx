@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Logo from "@/Pictures/Logo.png";
 import Link from "next/link";
 import { MdPersonOutline } from "react-icons/md";
 import { CiSearch } from "react-icons/ci";
@@ -13,7 +12,7 @@ export default function Header() {
         <div className="logo ">
 
 
-        <Image src={Logo} width={185} height={41} alt="Picture of the author" />
+        <Image src="/Logo.png"  width={185} height={41} alt="Picture of the author" />
         </div>
 
         <div className="navbtns">

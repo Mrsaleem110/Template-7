@@ -1,11 +1,10 @@
-import Image from "next/image";
-import Filter from "@/Pictures/filter.png"
+import Image from "next/image" 
 export default function BlowHero(){
     return (
         <>
      <div className="w-[100%] h-[4rem] bg-[#F9F1E7]" >
         <div>
-        <Image src={Filter} width={30} alt="Picture of the author" />
+        <Image src="@/Pictures/filter.png" width={30} alt="Picture of the author" />
             <p>Filter</p>
 
 
