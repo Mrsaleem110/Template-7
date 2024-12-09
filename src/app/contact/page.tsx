@@ -6,7 +6,7 @@ import { TbClockFilled } from "react-icons/tb";
 
 
 
-export default function () {
+export default function Contact() {
   return (
     <>
       <div className="relative">

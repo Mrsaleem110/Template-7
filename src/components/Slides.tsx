@@ -1,7 +1,7 @@
 import Image from "next/image";
 import InnerPeace from "@/Pictures/inner.png" 
 import SideInner from "@/Pictures/Sideinner.png" 
-export default function () {
+export default function Slides() {
   return (
     <>
       <div className="slideSection bg-[#FCF8F3]">

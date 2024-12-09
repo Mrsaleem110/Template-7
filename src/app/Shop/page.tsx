@@ -146,7 +146,7 @@ export default function ShopHero() {
       <div className="cardsContainer">
         {data.map((card, index) => (
           <div className="card" key={index} style={{ width: "15rem" }}>
-            <img
+            <Image
               src={card.image}
               style={{ width: "18rem", height: "18rem" }}
               className="card-img-top"
